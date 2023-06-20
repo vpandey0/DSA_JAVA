@@ -8,6 +8,7 @@ public class StudentUse2 {
      s.rollNo=123;//-> it is accessible as rollNo is Public
      System.out.println(s.rollNo);
      
+     
 	}
 
 }
