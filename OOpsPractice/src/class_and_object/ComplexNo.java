@@ -27,8 +27,9 @@ public class ComplexNo {
 	}
 	public void multiply(ComplexNo c2){
 		int r1=this.real*(c2.real) - imaginary*(c2.imaginary);
-		imaginary=this.real*(c2.imaginary)+this.imaginary*(c2.real);
+		int img=this.real*(c2.imaginary)+this.imaginary*(c2.real);
 		this.real=r1;
+		this.imaginary=img;
 		
 	}
 	public void print(){

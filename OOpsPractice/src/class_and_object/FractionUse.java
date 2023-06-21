@@ -1,7 +1,5 @@
 package class_and_object;
 
-import temp.new_test;
-
 public class FractionUse {
 
 	public static void main(String[] args) {

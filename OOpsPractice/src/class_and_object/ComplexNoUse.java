@@ -1,22 +1,22 @@
 package class_and_object;
-import java.util.*;
+import java.util.Scanner;
 public class ComplexNoUse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner s = new Scanner(System.in);
+		Scanner sn = new Scanner(System.in);
 
-		int real1 = s.nextInt();
-		int imaginary1 = s.nextInt();
+		int real1 = sn.nextInt();
+		int imaginary1 = sn.nextInt();
         
-		int real2 = s.nextInt();
-		int imaginary2 = s.nextInt();
+		int real2 = sn.nextInt();
+		int imaginary2 = sn.nextInt();
 
 		ComplexNo c1 = new ComplexNo(real1, imaginary1);
 		
 		ComplexNo c2 = new ComplexNo(real2, imaginary2);
         
-		int choice = s.nextInt();
+		int choice = sn.nextInt();
 		 
 		if(choice == 1) {
 			// Add
@@ -31,7 +31,6 @@ public class ComplexNoUse {
 		else {
 			return;
 		}
-		s.close();
-	}
+		}
 
 }
