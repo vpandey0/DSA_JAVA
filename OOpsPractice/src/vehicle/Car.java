@@ -1,6 +1,6 @@
 package vehicle;
 
-public class Car extends Vehicle{// Vehicle is parent
+public class Car extends Vehicle{// Vehicle is parentRemote Push Specification	HEAD:refs/hRemote Fetch Specification	[+refs/heads/*:refs/remotes/origin/*, refs/heads/main:refs/remotes/origin/main]eads/main
 	int numOdGears;
 	int maxSpeed;
 	
