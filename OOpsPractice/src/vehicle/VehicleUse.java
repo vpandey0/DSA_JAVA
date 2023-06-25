@@ -26,7 +26,7 @@ public class VehicleUse {
 		
 //		--------Quiz Question-2 -------
 		Car c=new Honda();
-        c.print();
+        c.print();//print
         
 
     
