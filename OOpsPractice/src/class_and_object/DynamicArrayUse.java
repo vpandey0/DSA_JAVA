@@ -1,6 +1,6 @@
 package class_and_object;
 
-import temp.new_test;
+
 
 public class DynamicArrayUse {
 
