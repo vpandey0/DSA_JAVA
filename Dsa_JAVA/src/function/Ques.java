@@ -62,7 +62,10 @@ public class Ques {
 public static void main (String[] args) {
 //int arr[]={1,2,3,4,5,6,7,8};
 //System.out.print(sum(arr));
-	int[] arr = new int[5];
-	arr = new int[6];
+//	int[] arr = new int[5];
+//	arr = new int[6];
+	for(int i=99;i>=0;i/9) {
+		
+	}
 }
 }

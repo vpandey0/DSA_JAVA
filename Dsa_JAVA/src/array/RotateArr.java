@@ -1,7 +1,7 @@
 package array;
 
 public class RotateArr {
-	ublic static void rotate(int[] arr, int d) {
+	public static void rotate(int[] arr, int d) {
     	//Your code goes here
         int n=arr.length;
         d=d%n;
