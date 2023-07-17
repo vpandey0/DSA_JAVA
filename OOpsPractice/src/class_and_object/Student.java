@@ -4,7 +4,7 @@ public class Student {
  String name;
  public int rollNo;
 // private int age;
-// Final data member can be initialized as soon as declared
+// Final data member can be initialized as soon as they are declared
  private final int age;
  private static int numStudents;
  
