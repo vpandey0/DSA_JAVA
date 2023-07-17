@@ -1,6 +1,6 @@
 package interfaces;
 
-public interface VehicleInterface {
+public interface VehicleInterface  {
 	
 	
 	public final static double PI = 3.14;
